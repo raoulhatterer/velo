@@ -1,0 +1,8 @@
+# Sujet Bac Centre étranger J1 2021
+## Exercice 1
+### Question 4
+
+Le programme instancie la classe César avec une clef de chiffrement et appelle la méthode
+transforme().
+Cette méthode appelle à son tour la méthode cryptage() écrite en Q2. On obtient :
+FIN (le P devient F,le S devient I et le X devient N)
