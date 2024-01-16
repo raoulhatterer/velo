@@ -6,3 +6,7 @@ flotte[80]['etat'] renvoie la valeur 0.
 # 1) c)
 flotte[99]['etat'] renverra une erreur car la clé 99 n'existe pas.
 
+# 3) b)
+for id_velo in flotte:
+    if flotte[id_velo]['type'] == 'electrique' and flotte[id_velo]['etat'] != -1:
+        print(id_velo, flotte[id_velo]['station'])
